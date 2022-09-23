@@ -1,0 +1,17 @@
+{
+  "name": "cyc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stag:chrome":"npx cypress run --headed --browser chrome --config baseUrl=\"https://www.google.com/\"",
+    "canary:chrome":"npx cypress run --headed --browser chrome --config baseUrl=\"https://www.facebook.com/\"",
+    "prod:firebox":"npx cypress run --headed --browser firefox --config baseUrl=\"https://www.yahoo.com/\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "9.7"
+  }
+}
