@@ -1,4 +1,5 @@
 ///<reference types = "cypress"/>
+import {Utility} from '../../support/utility'
 describe('verify the login function',function(){
 
     it.only('verify with valid credentials',function(){
@@ -15,5 +16,10 @@ describe('verify the login function',function(){
 
     })
 
+    it.only('verify with valid credentials',function(){
+        let obj =  new Utility()
+        let d  = obj.getBaseUrl()
+        cy.visit(d)
+   })
 
 })

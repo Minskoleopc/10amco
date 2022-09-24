@@ -1,0 +1,6 @@
+{
+    "extends": "./cypress.json",
+    "baseUrl": "https://facebook.com",
+    "username":"chinmay",
+    "password":"chinmay123"
+}
